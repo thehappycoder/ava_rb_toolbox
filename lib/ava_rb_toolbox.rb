@@ -1,0 +1,1 @@
+require 'ava_rb_toolbox/enumerable'
