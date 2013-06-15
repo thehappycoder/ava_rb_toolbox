@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "VERSION",
+    "ava_rb_toolbox.gemspec",
     "lib/ava_rb_toolbox.rb",
     "lib/ava_rb_toolbox/enumerable.rb",
     "lib/ava_rb_toolbox/module.rb"
