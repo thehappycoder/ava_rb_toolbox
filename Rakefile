@@ -15,22 +15,18 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "ava_rb_toolbox"
+  gem.required_ruby_version = '>= 2.0.0'
   gem.homepage = "http://github.com/thehappycoder/ava_rb_toolbox"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Small useful additions to ruby standard classes"
+  gem.description = ""
   gem.email = "thehappycoder@gmail.com"
   gem.authors = ["Anton Kuzmin"]
   # dependencies defined in Gemfile
+
+  gem.files.exclude 'spec/**/*'
+  gem.files.exclude 'Rakefile', '.document', '.yardopts', 'Gemfile', 'Gemfile.lock'
 end
 Jeweler::RubygemsDotOrgTasks.new
-
-#require 'rcov/rcovtask'
-#Rcov::RcovTask.new do |test|
-#  test.libs << 'test'
-#  test.pattern = 'test/**/test_*.rb'
-#  test.verbose = true
-#  test.rcov_opts << '--exclude "gems/*"'
-#end
 
 task :default => :test

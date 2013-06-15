@@ -8,8 +8,8 @@ group :development do
   gem "yard"
   gem "bundler", "~> 1.3.5"
   gem "jeweler", "~> 1.8.4"
-  gem 'simplecov', :require => false
-  gem 'simplecov-rcov', :require => false
+  gem 'simplecov', '~> 0.7.1', :require => false
+  gem 'simplecov-rcov', '~> 0.2.3', :require => false
 end
 
 group :test do

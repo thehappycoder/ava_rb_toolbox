@@ -20,8 +20,6 @@ if ENV['COVERAGE'] == 'on'
   SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
   SimpleCov.start do
     add_filter '/spec'
-
-    add_group 'Ava', '/lib'
   end
 end
 

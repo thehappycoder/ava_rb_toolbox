@@ -47,6 +47,6 @@ DEPENDENCIES
   jeweler (~> 1.8.4)
   rspec (~> 2.13.0)
   shoulda
-  simplecov
-  simplecov-rcov
+  simplecov (~> 0.7.1)
+  simplecov-rcov (~> 0.2.3)
   yard
